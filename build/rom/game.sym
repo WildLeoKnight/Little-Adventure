@@ -306,7 +306,7 @@
 00:C516 _bank_data_ptrs
 00:C526 _music_tracks
 00:C52A _script_variables
-00:C591 _music_7faf1e500_Data
+00:C591 _music_bde9f21c0_Data
 ; Area: _BSS
 00:C59B __cpu
 00:C59C .mode
@@ -479,11 +479,11 @@
 01:4000 _tileset_bank_ptrs
 01:400C _background_bank_ptrs
 01:4027 _sprite_bank_ptrs
-01:405D _scene_bank_ptrs
-01:407B _string_bank_ptrs
-01:40DE _music_banks
+01:4060 _scene_bank_ptrs
+01:407E _string_bank_ptrs
+01:40E1 _music_banks
 ; Area: _CODE_9
-01:4000 _music_7faf1e5000
-01:4118 _music_7faf1e5001
-01:4262 _music_7faf1e5002
-01:43AB _music_7faf1e5003
+01:4000 _music_bde9f21c00
+01:4118 _music_bde9f21c01
+01:4262 _music_bde9f21c02
+01:43AB _music_bde9f21c03

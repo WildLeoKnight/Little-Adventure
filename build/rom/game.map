@@ -17,7 +17,7 @@ AREA .  .ABS.
 		l__LIT	0000
 		l__GSINITTAIL	0001
 		l__BSS	005E
-		l__CODE_5	00E0
+		l__CODE_5	00E3
 		l__HEADER	01E1
 		s__CODE	0200
 		l__HOME	0254
@@ -31,12 +31,12 @@ AREA .  .ABS.
 		s__BASE	1973
 		s__LIT	1CC6
 		s__GSINIT	1CC6
-		l__CODE_7	1DE6
+		l__CODE_7	1F67
 		l__CODE_3	226F
 		s__GSINITTAIL	2377
 		s__GSFINAL	2378
 		l__CODE_4	2B45
-		l__CODE_6	3F5A
+		l__CODE_6	3F4F
 		s__CODE_1	4000
 		s__CODE_3	4000
 		s__CODE_4	4000
@@ -375,7 +375,7 @@ AREA _DATA
 		_bank_data_ptrs	C516
 		_music_tracks	C526
 		_script_variables	C52A
-		_music_7faf1e500_Data	C591
+		_music_bde9f21c0_Data	C591
 AREA _BSS
 	RADIX HEX
 	BASE C59B
@@ -584,80 +584,80 @@ AREA _CODE_1
 AREA _CODE_6
 	RADIX HEX
 	BASE 4000
-	SIZE 3F5A
+	SIZE 3F4F
 	ATTRIB REL CON
 	GLOBALS
 		_bank_6_data	4000
 AREA _CODE_7
 	RADIX HEX
 	BASE 4000
-	SIZE 1DE6
+	SIZE 1F67
 	ATTRIB REL CON
 	GLOBALS
 		_bank_7_data	4000
 AREA _CODE_5
 	RADIX HEX
 	BASE 4000
-	SIZE 00E0
+	SIZE 00E3
 	ATTRIB REL CON
 	GLOBALS
 		_tileset_bank_ptrs	4000
 		_background_bank_ptrs	400C
 		_sprite_bank_ptrs	4027
-		_scene_bank_ptrs	405D
-		_string_bank_ptrs	407B
-		_music_banks	40DE
+		_scene_bank_ptrs	4060
+		_string_bank_ptrs	407E
+		_music_banks	40E1
 AREA _CODE_9
 	RADIX HEX
 	BASE 4000
 	SIZE 04DA
 	ATTRIB REL CON
 	GLOBALS
-		_music_7faf1e5000	4000
-		_music_7faf1e5001	4118
-		_music_7faf1e5002	4262
-		_music_7faf1e5003	43AB
+		_music_bde9f21c00	4000
+		_music_bde9f21c01	4118
+		_music_bde9f21c02	4262
+		_music_bde9f21c03	43AB
 MODULES
 	FILE C:\Users\leona\AppData\Local\Temp/_gbs/gbdk/lib/small/asxxxx/gb/crt0.o
 		NAME Runtime
 	FILE obj/BankData.o
-		NAME lcc29520
+		NAME lcc102920
 	FILE obj/BankManager.o
-		NAME lcc128560
+		NAME lcc313640
 	FILE obj/FadeManager.o
-		NAME lcc114440
+		NAME lcc325400
 	FILE obj/Math.o
-		NAME lcc158040
+		NAME lcc205360
 	FILE obj/MusicManager.o
-		NAME lcc155360
+		NAME lcc9240
 	FILE obj/Scene.o
-		NAME lcc33360
+		NAME lcc273840
 	FILE obj/Scene_b.o
-		NAME lcc151520
+		NAME lcc331760
 	FILE obj/ScriptRunner.o
-		NAME lcc124240
+		NAME lcc333920
 	FILE obj/ScriptRunner_b.o
-		NAME lcc106720
+		NAME lcc188880
 	FILE obj/SpriteHelpers.o
-		NAME lcc125920
+		NAME lcc299040
 	FILE obj/Stack.o
-		NAME lcc132240
+		NAME lcc321800
 	FILE obj/UI.o
-		NAME lcc28000
+		NAME lcc177240
 	FILE obj/UI_b.o
-		NAME lcc106840
+		NAME lcc260600
 	FILE obj/game.o
-		NAME lcc107200
+		NAME lcc287840
 	FILE obj/gbt_player.o
 	FILE obj/gbt_player_bank1.o
 	FILE obj/data/bank_6.o
-		NAME lcc131880
+		NAME lcc282400
 	FILE obj/data/bank_7.o
-		NAME lcc118520
+		NAME lcc306040
 	FILE obj/data/data_ptrs.o
-		NAME lcc74200
-	FILE obj/music/music_7faf1e500.o
-		NAME lcc37280
+		NAME lcc300920
+	FILE obj/music/music_bde9f21c0.o
+		NAME lcc330080
 LIBRARIES
 	LIBRARY C:\Users\leona\AppData\Local\Temp/_gbs/gbdk/lib/small/asxxxx/gb/gb.lib
 		MODULE set_prop.o
